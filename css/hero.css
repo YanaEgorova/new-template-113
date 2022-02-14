@@ -1,0 +1,115 @@
+.home-wrapper { 
+    background-color: var(--third-brand-color);
+}
+
+.hero {
+    padding: 20rem 0;
+    text-align: center;
+    position: relative;
+}
+.animation-wrapper {
+  width: 50%;
+  padding-bottom: 50%;
+}
+.sphere-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120rem;
+  height: 120rem;
+  margin: -60rem 0 0 -60rem;
+}
+.sphere path {
+  fill: url(#sphereGradient);
+  stroke-width: 1px;
+  stroke: rgba(80,80,80,.35);
+  backface-visibility: hidden;
+}
+.hero__block {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero .title {
+    font-size: 4rem;
+    color: var(--second-brand-color);
+}
+
+
+.contacts__wrapper {
+    background-color: var(--second-brand-color);
+}
+.contacts {
+    padding: 10rem 0;
+    text-align: center;
+}
+.contacts .sub-title {
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+.contacts__item:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+
+
+
+.phrase__wrapper {
+    background-color: var(--fourth-brand-color);
+}
+.phrase {
+    padding: 15rem 0;
+    text-align: center;
+}
+.phrase .title {
+    color: var(--sub-text-color);
+}
+.phrase__img {
+    display: block;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 30rem;
+}
+
+@media (min-width: 500px) {
+  .sphere path {
+    stroke-width: .4px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        padding: 15rem 0 10rem;
+    }
+    .hero .title {
+        font-size: 7rem;
+    }
+
+
+
+  
+    .contacts__item-link .text {
+        position: relative;
+    }
+    .contacts__item-link .text::after {
+        display: block;
+        width: 0;
+        height: .1rem;
+        content: '';
+        bottom: 0;
+        left: 0;
+        background-color: var(--main-text-color);
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+    }
+    .contacts__item-link:hover .text::after {
+        width: 100%;
+    }
+}

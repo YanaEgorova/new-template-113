@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Nunito Sans Bold';
+    src: url('../fonts/NunitoSans-Bold.eot');
+    src: url('../fonts/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NunitoSans-Bold.woff2') format('woff2'),
+        url('../fonts/NunitoSans-Bold.woff') format('woff'),
+        url('../fonts/NunitoSans-Bold.ttf') format('truetype'),
+        url('../fonts/NunitoSans-Bold.svg#NunitoSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/NunitoSans-Regular.eot');
+    src: url('../fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NunitoSans-Regular.woff2') format('woff2'),
+        url('../fonts/NunitoSans-Regular.woff') format('woff'),
+        url('../fonts/NunitoSans-Regular.ttf') format('truetype'),
+        url('../fonts/NunitoSans-Regular.svg#NunitoSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('../fonts/Prompt-Black.eot');
+    src: url('../fonts/Prompt-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Prompt-Black.woff2') format('woff2'),
+        url('../fonts/Prompt-Black.woff') format('woff'),
+        url('../fonts/Prompt-Black.ttf') format('truetype'),
+        url('../fonts/Prompt-Black.svg#Prompt-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
