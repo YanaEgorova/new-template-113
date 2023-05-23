@@ -128,9 +128,7 @@
               <a href="./use.html" class="text footer__link footer__page-link">
                 <span class="footer__link-span">Terms of Use</span>
               </a>
-              <a href="./affiliate-program.html" class="text footer__link footer__page-link">
-                <span class="footer__link-span">Affiliate Program</span>
-              </a>
+             
           
             </div>
             <div class="footer__left">
